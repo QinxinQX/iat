@@ -1,5 +1,5 @@
 # iat
-define(['pipAPI', '[[https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qualtrics/qstiat6.js]([https://github.com/QinxinQX/iat/blob/main/_config.yml](https://github.com/QinxinQX/iat/blob/main/_config.md))](https://github.com/QinxinQX/iat/blob/main/_config.md)'], function(APIConstructor, stiatExtension){
+define(['pipAPI', '[[[https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qualtrics/qstiat6.js]([https://github.com/QinxinQX/iat/blob/main/_config.yml](https://github.com/QinxinQX/iat/blob/main/_config.md))](https://github.com/QinxinQX/iat/blob/main/_config.md)](https://github.com/QinxinQX/iat/commit/86247b6babcb1959eac2f0c7a4fefab53f971581)'], function(APIConstructor, stiatExtension){
 	
 	var API = new APIConstructor();
 		  return stiatExtension({
