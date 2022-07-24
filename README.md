@@ -20,19 +20,19 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//Define the category.
 			category :  
 			{
-				name : 'E-cigarette', //Category name to be used for feedback and logging.
+				name : 'Black People', //Category name to be used for feedback and logging.
 				title : {
-					media : {word : 'E-cigarette'}, //Name of the category presented in the task.
+					media : {word : 'Black People'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-					{word: 'Vandy Vape'},
-					{word: 'SMOK'},
-					{word: 'Totally Wicked'},
-					{word: 'Juul'},
-					{word: 'Blu'},
-					{word: 'Relx'}
+					{word: 'Tyron'},
+					{word: 'Malik'},
+					{word: 'Terrell'},
+					{word: 'Jazmin'},
+					{word: 'Tiara'},
+					{word: 'Shanice'}
 				],
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
@@ -46,12 +46,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-					{word: 'Disgusting'},
-					{word: 'Evil'},
-					{word: 'Harmful'},
+					{word: 'Bomb'},
+					{word: 'Abuse'},
+					{word: 'Sadness'},
 					{word: 'Pain'},
 					{word: 'Poison'},
-					{word: 'Cancer'}
+					{word: 'Grief'}
 				], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
@@ -65,12 +65,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-					{word: 'Exciting'},
+					{word: 'Paradise'},
 					{word: 'Pleasure'},
-					{word: 'Fashionable'},
-					{word: 'Heaven'},
-					{word: 'Healthy'},
-					{word: 'Helpful'}
+					{word: 'Cheer'},
+					{word: 'Wonderful'},
+					{word: 'Splendid'},
+					{word: 'Love'}
 				], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
@@ -133,8 +133,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//If it is larger than 0, then we switch the category side only once, in the block specified in switchSideBlock.
 			switchSideBlock : 4, //By default, we switch on block 4 (i.e., after blocks 2 and 3 showed the first pairing condition).
 
-			base_url : {//
-				image : 'https://henley.eu.qualtrics.com/Q/GraphicsSection?ContextLibraryID=UR_0rBGxlBvWNBnhe6&LibraryID=UR_0rBGxlBvWNBnhe6'
+			base_url : {//Where are your images?
+				image : '/implicit/user/yba/pipexample/stiat/images/'
 			}, 
 			ITIDuration : 250, //Duration between trials.
 			
